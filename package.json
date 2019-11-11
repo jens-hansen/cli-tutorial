@@ -1,0 +1,16 @@
+{
+  "name": "cli-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.7.2",
+    "inquirer": "^7.0.0"
+  },
+  "bin": {
+    "cli-tutorial": "./index.js"
+  }
+}
